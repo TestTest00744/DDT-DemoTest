@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-23T08:48:50.727Z",
+        "line": 3,
+        "name": "Checking Login Functionality",
+        "description": "",
+        "id": "testing-login-to-vtiger-application;checking-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14461540400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Open Chrome and Launch Vtiger Application",
+            "match": {
+              "location": "LoginDetails.open_Chrome_and_Launch_Vtiger_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12245500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Title of the Application Vtiger",
+            "match": {
+              "location": "LoginDetails.title_of_the_Application_Vtiger()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318447400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": Enter Username and Password in EditBox",
+            "match": {
+              "location": "LoginDetails.enter_Username_and_Password_in_EditBox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10912490000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": Click on SignIn Button",
+            "match": {
+              "location": "LoginDetails.click_on_SignIn_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11983900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": Home page should display",
+            "match": {
+              "location": "LoginDetails.home_page_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 827621900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": Close the Browser",
+            "match": {
+              "location": "LoginDetails.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Login To Vtiger Application",
+    "description": "",
+    "id": "testing-login-to-vtiger-application",
+    "keyword": "Feature",
+    "uri": "file:/D:/DDTFramework/CucumberDDTFramework/Features/Login.feature",
+    "tags": []
+  }
+]
